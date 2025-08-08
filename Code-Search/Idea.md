@@ -5,11 +5,19 @@ I have a use case where i need to take springboot java code and then have to chu
 
 ## References
 [https://blog.voyageai.com/2024/12/04/voyage-code-3/](https://blog.voyageai.com/2024/12/04/voyage-code-3/)
-
+[https://docs.voyageai.com/docs/pricing](https://docs.voyageai.com/docs/pricing)
 
 
 
 ## Analysis Summary
+Models to try -> voyage-code-3,text-embedding-3-large
+
+## Notes
+understand cross-encoder reranker. Options: -> SaaS: Cohere Rerank-3, Voyage Rerank.
+
+understand how to do smaller chunk -> 
+Chunk sizes
+Aim for 200–800 tokens per chunk when possible. Whole methods are ideal; avoid splitting a single method across chunks. If a method is very long, split by logical blocks with a small overlap (e.g., 20–40 tokens).
 
 ## Reasoning
 #### Considering embedding models for code
