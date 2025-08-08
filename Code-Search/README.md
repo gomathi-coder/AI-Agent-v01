@@ -1,3 +1,4 @@
 ### Document List
 
-[Idea](Idea.html)
+- [Idea](Idea.html)
+- [Implementation-Plan](Implementation-Plan.html)
