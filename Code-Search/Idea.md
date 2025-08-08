@@ -2,7 +2,14 @@
 
 I have a use case where i need to take springboot java code and then have to chunk in vector database ...which embedding model we need to use which works well in code embedding the intent here is to preserve the code semantics better and hence any search i do will result in good results/match
 
----
+
+## References
+[https://blog.voyageai.com/2024/12/04/voyage-code-3/](https://blog.voyageai.com/2024/12/04/voyage-code-3/)
+
+
+
+
+## Analysis Summary
 
 ## Reasoning
 #### Considering embedding models for code
@@ -35,7 +42,7 @@ For the best semantic fidelity in code search, I recommend Voyage AI's voyage-co
 
 For chunking, use AST parsing to create method/class chunks, keeping summaries embedded for better query results. Evaluate the performance with 30-50 queries, focusing on return on investment.
 
----
+
 ## Response
 
 Short answer
