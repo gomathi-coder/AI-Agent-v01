@@ -1,6 +1,6 @@
 Semantic Code Search MVP – Lightweight Product Documentation
 
-1) Project charter / one‑pager
+### 1) Project charter / one‑pager
 
 Problem statement
 - Engineers and partners spend too much time finding the right code when they only know the business idea (for example “refund flow” or “GDPR delete”), not exact file or function names. Grep and IDE search miss cross-language, pattern-based, or poorly named code.
@@ -67,7 +67,7 @@ Dependencies and assumptions
 - Access to CI events or webhooks to trigger indexing.
 
 
-2) Personas, use cases, and user journeys
+### 2) Personas, use cases, and user journeys
 
 Personas
 - Backend developer: Finds feature logic, handlers, data access, patterns to reuse.
@@ -132,7 +132,7 @@ Canonical tasks with example queries (MVP set of 15)
 - Variant: “migrate from Joda-Time to java.time usage examples”
 
 
-3) Product requirements (PRD) and acceptance criteria
+### 3) Product requirements (PRD) and acceptance criteria
 
 Functional requirements
 
@@ -292,7 +292,7 @@ Out of scope for MVP
 - Natural language chatbots that edit code.
 
 
-Summary
+### Summary
 
 - We will deliver a semantic code search MVP for engineers to find code by intent, not just keywords. It supports natural-language and snippet queries, filters (language, repo, branch), and shows ranked results with context. It respects existing repo permissions.
 - Target impact: faster onboarding, faster incident triage, and smoother refactors. Success looks like p95 latency ≤ 2 s, Precision@5 ≥ 70%, 30% time saved on key tasks, and strong weekly adoption.
