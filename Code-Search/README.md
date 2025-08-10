@@ -1,6 +1,6 @@
 ### Project Details
 
-- [Project-Charte](Project-Charte.html)
+- [Project-Charter](Project-Charter.html)
 
 ### Document List
 
